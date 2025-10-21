@@ -1,0 +1,21 @@
+HI there, Greetings to all of the peoples who see this repository
+// About the system
+ If you look the code in your editor, the system is an Authentication system Backend designed for a website (in this case). The programme
+it uses is javascript (js) ==> nodejs with its framework which is expressjs.
+
+# About the Readme
+  This readme talks about only the authenticaton backend system of our website, and as you can see there is an uploaded documents, 
+these documents are the backend auth system. 
+
+# About the backend auth system
+  The Auth system let's you signin to the website via a username, a unique email and also a password with a min lenght of 8 character, 
+and also as any authnetication system, this backend auth system lets you login only by using your email and password.
+
+# About the security of the system
+  This system keeps your privacy like your password hidden by using a hash system, in this system the password is hashed using bcrypt and when 
+a user try to login the system will compare the password. As you know if a password is hashed using bcrypt, it is hard to reverse it. 
+So your password is safe with a salt of 10.
+
+* And other thing is that there will be a token given by the system using jsonwebtoken when a user signin and also login.
+
+Good Luck, Thanks 
